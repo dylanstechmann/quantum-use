@@ -1,0 +1,26 @@
+# Local secrets and generated files
+.env
+.env.*
+!.env.example
+secrets/
+**/.nvqc_config
+**/.qiskit/
+**/.aws/
+**/dwave.conf
+*.pem
+*.key
+
+# Python and notebook runtime artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
